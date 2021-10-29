@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/kanban_board
+    username: postgres
+    password: Chandu9676
+
+  jpa:
+    generate-ddl: true
+    show-sql: true
+
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
